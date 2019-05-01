@@ -56,7 +56,11 @@ h1 {
   }
 
 .pitch-and-form {
-	min-height: inherit;
+	margin-top: 3px;
+}
+
+p {
+	margin-top: 15px;
 }
 
 .project-donation {
@@ -152,6 +156,7 @@ h1 {
 input {
 	border-radius: 5%;
 	font-weight: bolder;
+	margin-right: 2px;
 }
 
 #green-button {
