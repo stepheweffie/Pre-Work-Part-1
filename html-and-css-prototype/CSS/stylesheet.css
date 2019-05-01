@@ -83,6 +83,33 @@ h1 {
 
 }
 
+.progress-bar {
+	max-width: 267px;
+	min-width: 267px;
+	max-height: 10px
+	min-height: 10px;
+	margin-left: 29%;
+	margin-top: 30px;
+	margin-bottom: -35px;
+	border-style: solid;
+    border-color: #eaeaea;
+    border-width: 1px;
+	flex-wrap: nowrap;
+	display: flex;
+}
+
+#progress-made {
+	background-color: #EF5F3C;
+	width: 75%;
+	min-height: 13px;
+}
+
+#progress-togo {
+	background-color: #eaeaea;
+	width: 25%;
+	min-height: 13px;
+}
+
 #reminder {
 	text-align: left;
 	color: #777;
