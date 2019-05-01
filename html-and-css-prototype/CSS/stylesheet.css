@@ -84,7 +84,7 @@ p {
 	background-color: #333333;
 	color: whitesmoke;
 	height: 50px;
-	padding-bottom: 10pz;
+	padding-bottom: 10px;
 }
 
 .status {
@@ -112,23 +112,23 @@ p {
 	margin-left: 29%;
 	margin-top: 30px;
 	margin-bottom: -35px;
-	border-style: solid;
-    border-color: #cccccc;
-    border-width: 1px 1px 1px 1px;
 	flex-wrap: nowrap;
 	display: flex;
+	border-style: solid;
+    border-color: #cccccc;
+    border-width: .75px .75px .75px .75px;
 }
 
 #progress-made {
 	background-color: #EF5F3C;
 	width: 75%;
-	max-height: 12px;
+	max-height: 13px;
 }
 
 #progress-togo {
 	background-color: #f5f5f5;
 	width: 25%;
-	max-height: 12px;
+	max-height: 13px;
 }
 
 .progress-text {
@@ -175,13 +175,13 @@ input {
 }
 
 #green-button {
-	background-color: #00a200;
+	background-color: #00c200;
 	margin-left: 10px;
 	color: whitesmoke;
 	font-size: 15px;
 	border-radius: 5%;
 	border-style: solid;
-	border-color: #00a200;
+	border-color: #00c200;
 }
 
 .why-donate {
