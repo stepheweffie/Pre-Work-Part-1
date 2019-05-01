@@ -24,6 +24,26 @@ h1 {
 	text-align: center;
 }
 
+.project-donation {
+	align-items: center;
+}
+
+.project-progress {
+
+
+}
+
+.status {
+	text-align: center;
+	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+}
+
+.progress-text {
+	text-align: left;
+	color: #777;
+	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+}
+
 /* The following font information and color codes are provided for you.  They do not match the prototype exactly, but they are fine to use for the assignment and doing so does not count against you.  They are simply meant to help you save time.  We would like everyone to have as close to a pixel-perfect match to the prototype as possible.  If you do find a font/color that matches more precisely, please share it with the team so we can improve the activity for future applicants.  Thank you!  Happy coding!
 
 	FONTS:
