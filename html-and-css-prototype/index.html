@@ -5,7 +5,6 @@
     <title>HTML/CSS Prototype</title>
     <link rel="stylesheet" href="CSS/stylesheet.css">
   </head>
-
     <div class="container">
       <h1>Recreate this using HTML &amp; CSS</h1>
       <img src="https://s3.amazonaws.com/f.cl.ly/items/2z3C3Z0L2Q0R282p1V0z/Image%202014-12-19%20at%2010.07.09%20AM.png" width="303" />
@@ -25,12 +24,12 @@
         <div class="box">
           <div class="pitch-and-form"
             <div class="progress-text" id="reminder">
-              Only 3 days left to fund this project.
+              <span id="orange-text"><strong>Only 3 days left </strong></span>to fund this project.
               <br><br>
-              Join the <strong>42</strong> other donors who have already supported this project. Every dollar helps.
+              Join the <span id="backer-quantity"></span><strong>42</strong> other donors who have already supported this project. Every dollar helps.
             </div>
             <form>
-              <input class="donation-submit"  type="text" placeholder="$">
+              <input class="donation-submit"  type="text" placeholder="$ 50">
               <button class="donation-submit" id="green-button" type="submit">Give Now</button>
             </form>
             <div class="why-donate">
