@@ -175,13 +175,13 @@ input {
 }
 
 #green-button {
-	background-color: #00c200;
+	background-color: #00aa00;
 	margin-left: 10px;
 	color: whitesmoke;
 	font-size: 15px;
 	border-radius: 5%;
 	border-style: solid;
-	border-color: #00c200;
+	border-color: #00aa00;
 }
 
 .why-donate {
