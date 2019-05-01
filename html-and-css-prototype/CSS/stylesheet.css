@@ -172,9 +172,9 @@ input {
 }
 
 #green-button {
-	background-color: #1CBC2C;
+	background-color: #00a200;
 	margin-left: 10px;
-	color: white;
+	color: whitesmoke;
 	font-size: 15px;
 	border-radius: 5%;
 }
