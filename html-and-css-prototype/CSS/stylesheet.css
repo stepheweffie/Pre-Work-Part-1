@@ -24,13 +24,25 @@ h1 {
 	text-align: center;
 }
 
+ .box {
+	width: 40%;
+	padding: 2%;
+	margin-bottom: 10px;
+  }
+
+.pitch-and-form {
+	border-style: solid;
+    border-color: #eaeaea;
+    border-width: 1.5px;
+}
+
 .project-donation {
-	align-items: center;
+
 }
 
 .project-progress {
-
-
+	background-color: #424242;
+	color: whitesmoke;
 }
 
 .status {
@@ -38,10 +50,30 @@ h1 {
 	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
 }
 
-.progress-text {
+#reminder {
 	text-align: left;
 	color: #777;
+	font-size: small;
 	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+}
+
+.why-donate {
+	font-style: italic;
+	font-size: small;
+	color: #20A1D4;
+	text-align: left;
+	padding-left: 2%;
+}
+
+.bottom-buttons {
+	border-style: solid;
+    border-color: #eaeaea;
+    border-width: 1px;
+	background-color: #eaeaea;
+	padding: 1% 2% 1% 2%;
+	box-shadow: #777;
+	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+	font-size: small;
 }
 
 /* The following font information and color codes are provided for you.  They do not match the prototype exactly, but they are fine to use for the assignment and doing so does not count against you.  They are simply meant to help you save time.  We would like everyone to have as close to a pixel-perfect match to the prototype as possible.  If you do find a font/color that matches more precisely, please share it with the team so we can improve the activity for future applicants.  Thank you!  Happy coding!
