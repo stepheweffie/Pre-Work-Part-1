@@ -24,7 +24,25 @@ h1 {
 	text-align: center;
 }
 
- .box {
+
+
+/* The following font information and color codes are provided for you.  They do not match the prototype exactly, but they are fine to use for the assignment and doing so does not count against you.  They are simply meant to help you save time.  We would like everyone to have as close to a pixel-perfect match to the prototype as possible.  If you do find a font/color that matches more precisely, please share it with the team so we can improve the activity for future applicants.  Thank you!  Happy coding!
+
+	FONTS:
+	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+	font-family: "rooney-web", "AmericanTypewriter", Rockwell, serif;
+
+  COLORS:
+  blue: #20A1D4;
+  green: #1CBC2C;
+  orange: #EF5F3C;
+  black: #424242;
+  grey: #777;
+  light grey: #eaeaea;
+*/
+
+/* Your CSS code goes here */
+.box {
 	width: 40%;
 	padding: 2%;
 	margin-bottom: 10px;
@@ -75,20 +93,3 @@ h1 {
 	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
 	font-size: small;
 }
-
-/* The following font information and color codes are provided for you.  They do not match the prototype exactly, but they are fine to use for the assignment and doing so does not count against you.  They are simply meant to help you save time.  We would like everyone to have as close to a pixel-perfect match to the prototype as possible.  If you do find a font/color that matches more precisely, please share it with the team so we can improve the activity for future applicants.  Thank you!  Happy coding!
-
-	FONTS:
-	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
-	font-family: "rooney-web", "AmericanTypewriter", Rockwell, serif;
-
-  COLORS:
-  blue: #20A1D4;
-  green: #1CBC2C;
-  orange: #EF5F3C;
-  black: #424242;
-  grey: #777;
-  light grey: #eaeaea;
-*/
-
-/* Your CSS code goes here */
