@@ -43,19 +43,20 @@ h1 {
 
 /* Your CSS code goes here */
 .box {
-	max-width: 43%;
+	max-width: 267px;
+	min-width: 267px;
 	padding-top: 2%;
 	padding-right: 2%;
 	padding-left: 3%;
 	margin-bottom: -20px;
-	margin-left: 30%;
+	margin-left: 29%;
 	border-style: solid;
     border-color: #eaeaea;
     border-width: 1.5px;
   }
 
 .pitch-and-form {
-
+	min-height: inherit;
 }
 
 .project-donation {
@@ -69,11 +70,13 @@ h1 {
 	color: whitesmoke;
 	height: 50px;
 	padding-bottom: 10pz;
+
 }
 
 .status {
 	text-align: center;
 	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+	font-size: 15px;
 }
 
 .progress-text {
@@ -83,30 +86,41 @@ h1 {
 #reminder {
 	text-align: left;
 	color: #777;
-	font-size: small;
+	font-size: 13px;
+	font-weight: bold;
 	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
 	width: 95%;
+	min-height: 90px;
+
 }
 
 .donation-submit {
 	padding: 3%;
 	padding-top: 5%;
 	padding-bottom: 5%;
-	width: 105px;
-	margin-bottom: 5px;
+	width: 46%;
 	margin-top: 15px;
+	margin-bottom: 8px;
 	height: 45px;
+	font-size: medium;
+}
+
+input {
+	border-radius: 5%;
 }
 
 #green-button {
 	background-color: #1CBC2C;
 	margin-left: 10px;
 	color: white;
+	font-size: 15px;
+	border-radius: 5%;
 }
 
 .why-donate {
 	font-style: italic;
 	font-size: small;
+	font-weight: bold;
 	color: #20A1D4;
 	text-align: left;
 	margin-bottom: 15px;
@@ -117,10 +131,12 @@ h1 {
     border-color: #eaeaea;
     border-width: 1px;
 	background-color: #eaeaea;
+	border-radius: 5%;
+	margin: 1%;
 	padding: 1% 2% 1% 2%;
 	box-shadow: #777;
 	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
 	font-size: small;
-	height: 40px;
+	height: 38px;
 	width: 20%;
 }
