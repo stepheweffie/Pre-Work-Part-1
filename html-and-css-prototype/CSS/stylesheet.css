@@ -62,7 +62,6 @@ h1 {
 .project-donation {
 	/*margin: 2em auto; */
 	max-width: 100%;
-
 }
 
 .project-progress {
@@ -70,7 +69,6 @@ h1 {
 	color: whitesmoke;
 	height: 50px;
 	padding-bottom: 10pz;
-
 }
 
 .status {
@@ -79,14 +77,21 @@ h1 {
 	font-size: 15px;
 }
 
-.progress-text {
-
+.triangle {
+	width: 0;
+	height: 0;
+	border-left: 35px solid transparent;
+	border-right: 35px solid transparent;
+	border-top: 50px solid #424242;
+	margin-top: -33px;
+	margin-left: 75%;
+	margin-right: 10%;
 }
 
 .progress-bar {
 	max-width: 267px;
 	min-width: 267px;
-	max-height: 10px
+	max-height: 10px;
 	min-height: 10px;
 	margin-left: 29%;
 	margin-top: 30px;
@@ -112,7 +117,6 @@ h1 {
 
 .progress-text {
 	flex-wrap: nowrap;
-
 }
 
 #reminder {
