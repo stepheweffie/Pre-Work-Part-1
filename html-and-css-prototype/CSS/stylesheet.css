@@ -65,10 +65,12 @@ h1 {
 	border-style: solid;
     border-color: #cccccc;
     border-width: 1px 1px 2px 1px;
+	background-color: transparent;
   }
 
 .pitch-and-form {
 	margin-top: 3px;
+	background-color: transparent;
 }
 
 .project-donation {
@@ -195,6 +197,11 @@ p {
 	margin-bottom: 8px;
 	height: 45px;
 	font-size: medium;
+	background-color: transparent;
+}
+
+form {
+	background-color: transparent;
 }
 
 input {
@@ -206,6 +213,16 @@ input {
 	margin-right: 4px;
 	margin-left: -4px;
 	background-color: transparent;
+}
+
+#text-behind-input {
+	z-index: -1;
+	position: inherit;
+	margin-right: -16%;
+	padding-left: 14px;
+	font-weight: 900;
+	color: #262626;
+	font-size: 18px;
 }
 
 #green-button {
