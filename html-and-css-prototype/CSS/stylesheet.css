@@ -43,8 +43,8 @@ h1 {
 
 /* Your CSS code goes here */
 .box-status {
-	max-width: 267px;
-	min-width: 267px;
+	max-width: 266px;
+	min-width: 266px;
 	max-height: 45px;
 	padding-top: 12px;
 	padding-right: 15px;
@@ -55,8 +55,8 @@ h1 {
   }
 
 .box {
-	max-width: 267px;
-	min-width: 267px;
+	max-width: 266px;
+	min-width: 266px;
 	padding-top: 15px;
 	padding-right: 15px;
 	padding-left: 20px;
@@ -119,7 +119,7 @@ h1 {
 
 .status {
 	text-align: center;
-	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+	font-family: font-family: "rooney-web", "AmericanTypewriter", Rockwell, serif;
 	font-size: 15px;
 }
 
@@ -135,8 +135,8 @@ h1 {
 }
 
 .progress-bar {
-	max-width: 267px;
-	min-width: 267px;
+	max-width: 266px;
+	min-width: 266px;
 	max-height: 12px;
 	min-height: 12px;
 	margin-left: 29%;
@@ -263,8 +263,8 @@ input {
 	font-size: 12px;
 	font-weight: bolder;
 	height: 36px;
-	max-width: 126px;
-	min-width: 126px;
+	max-width: 125px;
+	min-width: 125px;
 }
 
 #left-button {
